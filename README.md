@@ -23,7 +23,7 @@ To install the manual page, use the man command:
 sudo cp internsctl.1 /usr/share/man/man1/
 sudo mandb
 ```
-Testing:
+## Testing:
 You can test your internsctl command by running the following:
 ```
 man internsctl to access the manual page.
