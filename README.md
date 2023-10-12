@@ -43,7 +43,7 @@ internsctl file getinfo --permissions <file-name>
 internsctl file getinfo --owner <file-name>
 internsctl file getinfo --last-modified <file-name>
 ```
-
+### Link to workflow: https://app.diagrams.net/#Hgeetakamboj%2FXenonStackBashScript%2Fmain%2FWorkflow.drawio
 ### Output is copied to the flowchart diagram
 
 
