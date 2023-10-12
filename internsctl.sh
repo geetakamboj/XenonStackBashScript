@@ -24,6 +24,16 @@ display_help() {
     echo "  --last-modified, -m    Print last modified time"
 }
 
+# Function to get CPU information
+get_cpu_info() {
+    lscpu
+}
+
+# Function to get memory information
+get_memory_info() {
+    free
+}
+
 # Function to create a new user
 create_user() {
     if [ -z "$2" ]; then
@@ -76,10 +86,10 @@ elif [ "$1" == "--version" ]; then
     echo "internsctl $VERSION"
     exit 0
 elif [ "$1" == "cpu" ] && [ "$2" == "getinfo" ]; then
-    # (Previous CPU info functionality)
+    get_cpu_info
     exit 0
 elif [ "$1" == "memory" ] && [ "$2" == "getinfo" ]; then
-    # (Previous Memory info functionality)
+    get_memory_info
     exit 0
 elif [ "$1" == "user" ] && [ "$2" == "create" ]; then
     create_user "$@"
