@@ -44,6 +44,8 @@ internsctl file getinfo --owner <file-name>
 internsctl file getinfo --last-modified <file-name>
 ```
 
+### Output is copied to the flowchart diagram
+
 
 
 
