@@ -5,7 +5,7 @@ Make the script executable using the chmod command:
 ```
 chmod +x internsctl
 ```
-## Generate Manual Page:
+## Generate Manual Page
 To generate a manual page, you need to create a manual page file (e.g., internsctl.1) and install it. You can use a tool like help2man to help generate the manual page from the --help option. 
 
 To install help2man, use the following command:
@@ -17,13 +17,13 @@ brew install help2man
 help2man -N ./internsctl -o internsctl.1
 ```
 
-## Install the Manual Page:
+## Install the Manual Page
 To install the manual page, use the man command:
 ```
 sudo cp internsctl.1 /usr/share/man/man1/
 sudo mandb
 ```
-## Testing:
+## Testing
 You can test your internsctl command by running the following:
 ```
 man internsctl to access the manual page.
